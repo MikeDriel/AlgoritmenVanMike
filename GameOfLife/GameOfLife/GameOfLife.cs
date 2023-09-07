@@ -1,8 +1,8 @@
-﻿namespace AlgoritmenVanMike
+﻿namespace GameOfLife
 {
     public class GameOfLife
     {
-        int huidigeIteratie = 0;
+        int currentIteration = 0;
         public int[,] grid = new int[10, 10];
 
         public int[][] cellsAroundCell = new int[][] {
@@ -15,9 +15,9 @@
             GenerateGrid();
         }
 
-        public void RunGame(int iterations)
+        public void RunGame(int desiredIterations)
         {
-            for (int iteration = 0; iteration < iterations; iteration++)
+            while (currentIteration < desiredIterations)
             {
                 int[,] newGrid = new int[grid.GetLength(0), grid.GetLength(1)];
 
@@ -50,7 +50,7 @@
 
                 grid = newGrid;
                 PrintGrid();
-                huidigeIteratie++;
+                currentIteration++;
                 Thread.Sleep(1000);
             }
         }
@@ -88,7 +88,7 @@
 
         public void PrintGrid()
         {
-            Console.WriteLine($"Iteration {huidigeIteratie}:");
+            Console.WriteLine($"Iteration {currentIteration}:");
             for (int i = 0; i < grid.GetLength(0); i++)
             {
                 // converts the 1 and 0's to square things

@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoritmenVanMike", "AlgoritmenVanMike\AlgoritmenVanMike.csproj", "{0F722BEA-A84F-45E1-BA5C-A63CA7ED7A95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife", "GameOfLife\GameOfLife\GameOfLife.csproj", "{B32E0CB1-CD0D-4740-9D65-98237FF90923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SieveOfEratosthenes", "SieveOfEratosthenes\SieveOfEratosthenes.csproj", "{407ACCE4-EE2B-4259-BC44-9C3FDFC2D465}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0F722BEA-A84F-45E1-BA5C-A63CA7ED7A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F722BEA-A84F-45E1-BA5C-A63CA7ED7A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F722BEA-A84F-45E1-BA5C-A63CA7ED7A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F722BEA-A84F-45E1-BA5C-A63CA7ED7A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B32E0CB1-CD0D-4740-9D65-98237FF90923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32E0CB1-CD0D-4740-9D65-98237FF90923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32E0CB1-CD0D-4740-9D65-98237FF90923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32E0CB1-CD0D-4740-9D65-98237FF90923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407ACCE4-EE2B-4259-BC44-9C3FDFC2D465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407ACCE4-EE2B-4259-BC44-9C3FDFC2D465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407ACCE4-EE2B-4259-BC44-9C3FDFC2D465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407ACCE4-EE2B-4259-BC44-9C3FDFC2D465}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

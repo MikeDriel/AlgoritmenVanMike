@@ -1,4 +1,4 @@
-namespace AlgoritmenVanMike
+namespace SieveOfEratosthenes
 {
     public class SieveOfEratosthenes
     {
