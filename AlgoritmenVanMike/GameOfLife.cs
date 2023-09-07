@@ -1,4 +1,4 @@
-﻿namespace AlleAlgoritmesVanMike
+﻿namespace AlgoritmenVanMike
 {
     public class GameOfLife
     {
