@@ -20,7 +20,7 @@ namespace SieveOfEratosthenes
                 isPrime[i] = true;
             }
 
-            // Sieve of Eratosthenes algorithm. This filters out all non-prime numbers from the array.
+            // Sieve of Eratosthenes algorithm. This filters out all non-prime numbers from the array. cuz prime * 2 equals a non prime.
             for (int i = 2; i * i <= maxNumber; i++)
             {
                 if (isPrime[i])
